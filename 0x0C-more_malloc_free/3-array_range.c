@@ -24,7 +24,7 @@ int *array_range(int min, int max)
 		return (NULL);
 
 	for (count = 0; min <= max; count++)
-		poi[i] = min++;
+		poi[count] = min++;
 
 	return (poi);
 }
